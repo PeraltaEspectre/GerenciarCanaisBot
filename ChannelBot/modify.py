@@ -64,3 +64,6 @@ async def modify(_, msg: Message):
                 )
         if sticker:
             await msg.reply_sticker(sticker, quote=False)
+    except FloodWait as e:
+        await asyncio.sleep(e.x)
+
