@@ -1,5 +1,5 @@
-pyrogram~=1.2.9
+pyrogram
 TgCrypto
-SQLAlchemy~=1.4.21
+SQLAlchemy
 psycopg2
-pyromod~=1.5
+pyromod
